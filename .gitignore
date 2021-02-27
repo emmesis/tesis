@@ -1,4 +1,6 @@
+.git
 .vscode
+test.tex
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

@@ -1,0 +1,82 @@
+%!TEX root = tesis.tex
+\section*{Introducción}
+El campo del desarrollo de software está en constante evolución. 
+Hoy en día, las herramientas que utilizan los desarrolladores 
+son cada vez más poderosas, útiles e inteligentes 
+y gracias a ello la calidad del software también ha aumentado.
+
+Dentro de la Inteligencia Artificial (AI) se han explorado 
+una variedad de enfoques para apoyar el desarrollo de software.
+El razonamiento basado en casos (CBR), se puede utilizar para
+mantener una biblioteca de rutinas de código (objetos, métodos),
+seleccionar las rutinas de código 
+que mejor se adapten a las especificaciones del usuario,
+y presentar esas opciones al desarrollador de software.
+Alternativamente, a través de factores genéticos y evolutivos
+programación, el código puede ser mutado y probado para
+Mejoras. Si se mejora, el nuevo código se convierte en una base
+para la próxima generación de código. Los cambios aleatorios pueden
+potencialmente conducir a un código que es más conciso, más
+eficiente o más correcto. 
+
+Los modelos de procesamiento del lenguaje natural (NLP) 
+se han utilizado ampliamente para estudiar la relación entre palabras. 
+
+Inspirados por modelos como n-gram, desarrollamos un modelo 
+para analizar el código fuente a través de su árbol de sintaxis abstracta (AST). 
+
+Uno de los objetivos dentro del campo de la inteligencia artificial 
+es crear sistemas que tengan la capacidad de generar código fuente.
+
+Este estudio tiene aplicaciones en generación de código fuente, 
+finalización de código y análisis e investigación forense de software. 
+
+El estudio también beneficia a los desarrolladores de software y programadores 
+que se esfuerzan por mejorar la eficiencia del código 
+y acelerar el proceso de desarrollo. 
+
+Con el análisis de código fuente, 
+el kit de herramientas de lenguaje natural (NLTK), 
+que es muy útil en PNL, se ve severamente limitado 
+por su incapacidad para manejar 
+las propiedades semánticas y sintácticas de los códigos fuente. 
+
+Por lo tanto, procesamos los conjuntos de datos del código fuente 
+como árboles de sintaxis abstracta (AST) 
+en lugar del texto del código fuente en sí 
+para aprovechar la estructura rica en información del AST. 
+
+El modelo propuesto se basa en las arquitecturas 
+Long Short-Term Memory (LSTM) y Multiple Layer Perceptron (MLP) 
+basadas en el aprendizaje profundo. 
+
+Los resultados de nuestra evaluación 
+intrínseca en un corpus de proyectos de Python 
+han demostrado su capacidad para predecir de manera efectiva 
+una secuencia de código fuente 
+y muestran una mejora con respecto al trabajo anterior en este campo.
+
+
+
+
+El uso de entornos de desarrollo integrados (IDE), 
+se ha convertido en una práctica habitual ya que 
+las funciones adicionales que aporta son muy útiles. 
+
+La función de autocompletado 
+se ha convertido en una característica muy útil en los IDE, 
+ya que sugiere el próximo token probable basado en el código 
+ya listo en el contexto de escritura. 
+
+El trabajo anterior sobre la finalización del código 
+se basó en la información del tipo de tiempo de compilación [1] 
+para predecir el siguiente token. 
+
+Esta estrategia es eficiente con lenguajes de tipado estático 
+como C ++, java y otros lenguajes de tipo definido, 
+pero encuentra dificultades cuando se usa con lenguajes de tipado dinámico 
+como Python y JavaScript porque no hay declaración de tipo en estos últimos lenguajes. 
+
+
+
+
